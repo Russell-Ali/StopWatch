@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: black;
+}
+
+.counter {
+  background: white;
+  width: 500px;
+  height: 250px;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 40px;
+}
+
+.counter .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.counter .clock h1 {
+  cursor: default;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.counter .clock #mins {
+  padding: 0 32px;
+}
+
+.counter .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.counter .buttons button {
+  cursor: pointer;
+  border: none;
+  background: black;
+  border-radius: 80px;
+  width: 120px;
+  height: 60px;
+  margin-bottom: 60px;
+  outline: none;
+}
+
+.counter .buttons button h1 {
+  color: white;
+  margin: 10px 20px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */
